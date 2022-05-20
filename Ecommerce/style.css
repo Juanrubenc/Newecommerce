@@ -1,0 +1,93 @@
+.estilo{
+    display: flex;
+    height: 35vh;
+    background-image: url(/logo_academlo_blanco.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    box-shadow: #89f7fe;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));}
+
+.cards:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+
+h1{
+    font-family: sans-serif ;
+    color:white;
+    font-weight: 800;
+}
+body{
+    background: rgb(58,113,180);
+    background: linear-gradient(90deg, rgba(58,113,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,193,69,1) 100%);
+    padding-bottom: 10vh;
+}
+
+@media only screen and (min-width: 800px){
+    .estilo{
+        display: flex;
+        height: 35vh;
+        background-image: url(/logo_academlo_blanco.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center;
+        box-shadow: #89f7fe;
+        justify-content: center;
+        align-items: flex-end;
+        
+    }
+
+    .position-sticky{
+        vh-100
+        
+    }
+}
+    
+    @media only screen and ((min-width: 500px) and (max-width:799px)){
+        .estilo{
+            display: flex;
+            height: 35vh;
+            background-image: url(/logo_academlo_blanco.png);
+            background-repeat: no-repeat;
+            background-size: 90%;
+            background-position: center;
+            box-shadow: #89f7fe;
+            justify-content: center;
+            align-items: flex-end;
+        
+        }
+    
+    }
+
+    @media (min-width: 1025px) {
+        .h-custom {
+        height: 100vh !important;
+        }
+        .position-sticky{
+            top:0;
+        }
+        }
+    
+    
+        @media (min-width: 600px) {
+            .col md-4 { 
+                width: 10%;
+            }
+            .position-sticky{
+                top:0;
+            }
+            }
