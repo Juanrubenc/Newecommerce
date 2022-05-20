@@ -14,9 +14,6 @@ function getProducts() {
         })
 }
 
-
-
-
 function storeNewProducts() {
     const product = document.getElementById('addproduct').value
     const prices = document.getElementById('addprice').value
